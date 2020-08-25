@@ -1,0 +1,28 @@
+.AnswerItem {
+	border: 1px solid #ffffff;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	padding: 5px 10px;
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+
+.AnswerItem:hover{
+	background: rgba(255, 255, 255, .2);
+	transition: background .3 ease;
+	-webkit-transition: background .3 ease;
+	-moz-transition: background .3 ease;
+	-ms-transition: background .3 ease;
+	-o-transition: background .3 ease;
+}
+
+.AnswerItem.success{
+	background: rgba(161, 240, 169, .7);
+}
+
+.AnswerItem.error{
+	background: rgba(240, 87, 108, .7);
+}
